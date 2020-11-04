@@ -26,6 +26,54 @@
             "Form1",
             "Form1.json"
           ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "LostPetForm",
+            "LostPetForm.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "LoginDesign",
+            "LoginDesign.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "Homepage",
+            "Homepage.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "FoundPetForm",
+            "FoundPetForm.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "CreateAccount",
+            "CreateAccount.json"
+          ]
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "PetInfo",
+            "PetInfo.json"
+          ]
         }
       ],
       "configxml": null,
