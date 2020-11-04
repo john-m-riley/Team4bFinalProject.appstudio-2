@@ -1,0 +1,110 @@
+{
+  "!type": "Form",
+  "HTML": null,
+  "attributes": "",
+  "background": "",
+  "backgroundimage": "",
+  "borderColor": "",
+  "borderStyle": "",
+  "borderWidth": "",
+  "cached_js": null,
+  "cached_js_script_hash": null,
+  "children": [
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "PetInfo",
+        "Elements",
+        "lblRegisterPet.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "PetInfo",
+        "Elements",
+        "inptPet1.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "PetInfo",
+        "Elements",
+        "inptType.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "PetInfo",
+        "Elements",
+        "inptColor.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "PetInfo",
+        "Elements",
+        "inptSpecies.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "PetInfo",
+        "Elements",
+        "inptAge.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "PetInfo",
+        "Elements",
+        "inptDescribe.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "PetInfo",
+        "Elements",
+        "btnCreate1.json"
+      ]
+    }
+  ],
+  "class": "",
+  "designHeight": 0,
+  "designWidth": 0,
+  "expanded_pmp": null,
+  "fullScreen": "true",
+  "height": 460,
+  "id": "PetInfo",
+  "language": "JavaScript",
+  "left": "0",
+  "locked": false,
+  "modal": "false",
+  "onhide": "",
+  "onkeypress": "",
+  "onresize": "",
+  "onshow": "",
+  "openMode": "none",
+  "parentForm": "",
+  "position": "absolute",
+  "script": null,
+  "setFocusID": "",
+  "style": "",
+  "theme": "",
+  "top": "0",
+  "width": 320
+}
