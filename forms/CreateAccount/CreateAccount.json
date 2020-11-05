@@ -16,25 +16,7 @@
         "forms",
         "CreateAccount",
         "Elements",
-        "Label1.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "CreateAccount",
-        "Elements",
-        "inptName.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "CreateAccount",
-        "Elements",
-        "inptEmail.json"
+        "inptUsername.json"
       ]
     },
     {
@@ -52,7 +34,7 @@
         "forms",
         "CreateAccount",
         "Elements",
-        "inptUserName.json"
+        "inptPhoneNumber.json"
       ]
     },
     {
@@ -61,7 +43,7 @@
         "forms",
         "CreateAccount",
         "Elements",
-        "inptPet.json"
+        "inptAddress.json"
       ]
     },
     {
@@ -70,7 +52,34 @@
         "forms",
         "CreateAccount",
         "Elements",
-        "btnCreate.json"
+        "inptFirstName.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "CreateAccount",
+        "Elements",
+        "inptLastName.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "CreateAccount",
+        "Elements",
+        "btnAddUser.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "CreateAccount",
+        "Elements",
+        "Validator1.json"
       ]
     }
   ],

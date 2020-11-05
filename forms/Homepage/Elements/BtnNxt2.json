@@ -30,7 +30,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "BtnNxt2",
-  "left": 105,
+  "left": 216,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -61,7 +61,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 270,
+  "top": 384,
   "value": "Next page",
   "width": "auto"
 }

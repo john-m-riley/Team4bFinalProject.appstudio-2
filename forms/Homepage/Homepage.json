@@ -54,6 +54,24 @@
         "Elements",
         "btnFound.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Homepage",
+        "Elements",
+        "btnCatFact.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "Homepage",
+        "Elements",
+        "txtarCatFact.json"
+      ]
     }
   ],
   "class": "",

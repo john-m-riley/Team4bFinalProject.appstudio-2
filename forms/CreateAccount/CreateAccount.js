@@ -1,38 +1,32 @@
-inptName.onselect=function(){
-  let userFullName = prompt("Please enter your full name", '');
-  if (userFullName = null) {
-  document.getElementById("inptName"),value = userFullName;
-  }
-}
+let pw = "Reesebrandy5"
+let username = ""
+let password = ""
+let address = ""
+let  phone = ""
+let firstName= ""
+let lastName = ""
 
-inptEmail.onselect=function(){
-  let userEmail = prompt("Please enter your email", '');
-  if (userEmail = null) {
-  document.getElementById("inputEmail"),value = userEmail;
-  }
-}
 
-inptPassword.onselect=function(){
-  let userPassword = prompt("Please enter your password", '');
-  if (userPassword = null) {
-  document.getElementById("inptPasswor"),value = userPassword;
-  }
-}
+btnAddUser.onclick=function(){
+let username = inptUsername.value
+let password = inptPassword.value
+let address = inptAddress.value
+let  phone = inptPhoneNumber.value
+let firstName= inptFirstName.value
+let lastName = inptLastName.value
 
-inptUserName.onselect=function(){
-  let userTag = prompt("Please enter username you wish to use", '');
-  if (userTag = null) {
-  document.getElementById("inptUserName"),value = userTap;
-  }
-}
 
-inptPet.onselect=function(){
-  let userPet = prompt("Please enter your pet's name and a brief description", '');
-  if (userPet = null) {
-  document.getElementById("inptPet"),value = userPet;
-  }
-}
+  query = "INSERT INTO user (user_name, user_password, phone_number, address, first_name, last_name) VALUES ( '" + username + "', '" + password + "', '" + address + "', '" + phone + "', '" + firstName + "', '" + lastName + "')"
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=krk56243&pass=" + pw + "&database=375groupB4&query=" + query)
 
-btnCreate.onclick=function(){
-  document.getElementById("CreateAccount").submit();
-  }
+  if (req.status == 200) { //transit worked.
+    if (req.responseText == 500) { // means the insert succeeded
+       console.log( "User successfully added!")
+    } else
+      console.log( "There was a problem with adding the user to the database.")
+  } else {
+    // transit error
+    console.log("Error: " + req.status);
+  
+}
+}

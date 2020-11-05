@@ -1,45 +1,30 @@
-inptPet.onselect=function(){
-  let userPetName = prompt("Please enter your Pet's name", '');
-  if (userPetName = null) {
-  document.getElementById("inptPet"),value = userPetName;
-  }
-}
+let petname = ""
+let petType = ""
+let petColor = ""
+let petSpecies = ""
+let petAge= ""
+let petDescription = ""
 
-inptType.onselect=function(){
-  let userType = prompt("Please enter the type of pet you own (dog, cat, lizard, etc.)", '');
-  if (userType = null) {
-  document.getElementById("inptType"),value = userType;
-  }
-}
+btnAddPet.onclick=function(){
 
-inptColor.onselect=function(){
-  let userColor = prompt("Please enter the color of your pet", '');
-  if (userColor = null) {
-  document.getElementById("inptColor"),value = userColor;
-  }
-}
+let petname = inptPetName.value
+let petType = inptPetType.value
+let petColor = inptPetColor.value
+let petSpecies = inptPetSpecies.value
+let petAge= inptPetAge.value
+let petDescription = inptPetDescription.value
 
-inptUserName.onselect=function(){
-  let userSpecies = prompt("Please enter the sepecies of your pet", '');
-  if (userSpecies = null) {
-  document.getElementById("inptSpecies"),value = userSpecies;
-  }
-}
+  query = "INSERT INTO pets (pet_name, pet_type, pet_color, pet_species, pet_age, pet_description) VALUES ('" + petname + "', '" + petType + "', '" + petColor + "', '" + petSpecies + "','" + petAge + "', '" + petDescription + "')"
+  req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=krk56243&pass=" + pw + "&database=375groupB4&query=" + query)
 
-inptAge.onselect=function(){
-  let userAge = prompt("Please enter the age of your pet", '');
-  if (userAge = null) {
-  document.getElementById("inptAge"),value = userAge;
-  }
+  if (req.status == 200) { //transit worked.
+    if (req.responseText == 500) { // means the insert succeeded
+       console.log( "Pet successfully added!")
+    } else
+      console.log( "There was a problem with adding the pet to the database.")
+  } else {
+    // transit error
+    console.log("Error: " + req.status);
+  
 }
-
-inptDescribe.onselect=function(){
-  let userDescription = prompt("Please enter a brief descrition of your pet", '');
-  if (userDescription = null) {
-  document.getElementById("inptDescribe"),value = userDescription;
-  }
 }
-
-btnCreate.onclick=function(){
-  document.getElementById("PetInfo").submit();
-  }
