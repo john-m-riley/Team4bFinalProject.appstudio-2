@@ -1,4 +1,4 @@
-let pw = "Reesebrandy5"
+
 let username = ""
 let password = ""
 let address = ""

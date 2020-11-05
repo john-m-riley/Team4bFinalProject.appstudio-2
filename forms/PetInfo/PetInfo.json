@@ -81,6 +81,15 @@
         "Elements",
         "valPet.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "PetInfo",
+        "Elements",
+        "Label1.json"
+      ]
     }
   ],
   "class": "",
