@@ -31,14 +31,6 @@
           "!type": "External",
           "file": [
             "forms",
-            "LoginDesign",
-            "LoginDesign.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
             "Homepage",
             "Homepage.json"
           ]
@@ -89,6 +81,8 @@
       "extraheaders": null,
       "firstform": "Homepage",
       "fontFamily": "system",
+      "googlePlayKey": "certificates/google.json",
+      "googlePlayTrack": "production",
       "homescreenTitle": "",
       "icon": "nsb/images/192.png",
       "id": "Team4bFinalProject",
@@ -99,6 +93,8 @@
       "iosDistP12Password": "mypassword",
       "iosDistribution": "certificates/distribution.mobileprovision",
       "iosPackageType": "app-store",
+      "itunesAccount": "",
+      "itunesAppPassword": "",
       "jqWidgetsLicence": "",
       "language": "JavaScript",
       "manifest": null,

@@ -25,25 +25,7 @@
         "forms",
         "Homepage",
         "Elements",
-        "BtnNxt2.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Homepage",
-        "Elements",
         "Hamburger1.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "Homepage",
-        "Elements",
-        "btnLost.json"
       ]
     },
     {

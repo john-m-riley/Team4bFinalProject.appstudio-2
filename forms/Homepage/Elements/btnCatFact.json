@@ -19,7 +19,7 @@
   "display": "",
   "expanded_pmp": null,
   "fontFamily": "",
-  "fontSize": "",
+  "fontSize": "12",
   "fontStyle": "",
   "fontWeight": "",
   "groupStyle": "",
@@ -29,7 +29,7 @@
   "icon": "",
   "iconTitle": "",
   "id": "btnCatFact",
-  "left": 224,
+  "left": 248,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -60,7 +60,7 @@
   "size": " btn-md",
   "style": "",
   "toggleControl": "",
-  "top": 160,
+  "top": 352,
   "value": "Get Cat Fact",
-  "width": "auto"
+  "width": 72
 }

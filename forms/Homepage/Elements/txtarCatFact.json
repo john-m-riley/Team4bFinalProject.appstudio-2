@@ -23,13 +23,13 @@
   "footer": "",
   "header": "Cat Facts",
   "headerCols": 2,
-  "height": "auto",
+  "height": 128,
   "hidden": "",
   "icon": "",
   "iconTitle": "",
   "id": "txtarCatFact",
   "inputmode": "",
-  "left": 200,
+  "left": 8,
   "mAll": "",
   "mBottom": "",
   "mLeft": "",
@@ -73,9 +73,9 @@
   "script": "",
   "spellcheck": "true",
   "style": "",
-  "top": 40,
+  "top": 312,
   "validation": "",
   "value": "",
   "valueCols": 10,
-  "width": 120
+  "width": 232
 }
